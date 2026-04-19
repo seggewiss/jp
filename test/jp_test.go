@@ -153,9 +153,9 @@ func TestTraverseJsonInvalidKey(t *testing.T) {
 	}
 }
 
-// callParse Helper function for calling jp ParseJson
+// callParse Helper function for calling jp ParseJSON
 func callParse(t *testing.T, dn string) map[string]any {
-	res, err := jp.New().ParseJson("./testdata/test.json", dn)
+	res, err := jp.New().ParseJSON("./testdata/happy.json", dn)
 	if err != nil {
 		t.Errorf("Error parsing json: %v", err)
 	}
