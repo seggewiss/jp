@@ -1,0 +1,38 @@
+{
+  "scalar": {
+    "number": 1337,
+    "string": "foo",
+    "null": null,
+    "boolean": true
+  },
+  "scalar_array": [
+    "1",
+    "2",
+    "3"
+  ],
+  "obj_array": [
+    {
+      "bar": "buz"
+    },
+    {
+      "bar": "biz"
+    }
+  ],
+  "deep": {
+    "a": [
+      {
+        "b": [
+          {
+            "c": {
+              "d": [
+                {
+                  "e": "fuz"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
