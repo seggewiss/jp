@@ -30,6 +30,7 @@ Current focus areas:
 - Custom error handling for:
     - Invalid keys
     - Array out-of-bounds access
+- Pretty printing result with `--pretty`
 
 ---
 
@@ -43,7 +44,7 @@ go get https://github.com/seggewiss/jp.git
 
 ## 🚀 Usage
 ```shell
-jp <file> <dotNotationPath>
+jp [--pretty] <file> <dotNotationPath>
 ```
 
 ## Example
@@ -101,7 +102,6 @@ This project is part of my effort to:
 
 ## 🔮 Future improvements
 * JSONPath-like expressions
-* Better CLI flags (--pretty, --raw)
 * Performance optimizations for large files
 * Optional JSON streaming decoder
 * More expressive error reporting
